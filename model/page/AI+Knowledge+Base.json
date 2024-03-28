@@ -1,0 +1,23 @@
+{
+    "ID": "AI Knowledge Base",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "title": "Dashjoin AI Knowledge Base",
+                "text": "Query Your Documents",
+                "widget": "text"
+            },
+            {
+                "url": "ai-kb-completions",
+                "title": "",
+                "tagline": "Die Künstliche Intelligenz zum Grundschutz des Bundesamts für Sicherheit in der Informationstechnik (BSI)",
+                "logo": "https://static.vecteezy.com/system/resources/previews/021/608/790/non_2x/chatgpt-logo-chat-gpt-icon-on-black-background-free-vector.jpg",
+                "name": "Sicherheits-KI",
+                "system_prompt": "You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided. Answer in German.",
+                "knowledge_base": true,
+                "widget": "aichat"
+            }
+        ]
+    }
+}

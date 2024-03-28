@@ -1,0 +1,26 @@
+{
+    "ID": "AI Chat",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "title": "Dashjoin AI Chat",
+                "text": "Your AI Assistant",
+                "widget": "text"
+            },
+            {
+                "widget": "container",
+                "children": [
+                    {
+                        "url": "ai-kb-chat",
+                        "title": "",
+                        "tagline": "How can I help you? Ask anything you like! Examples: 1) Which event ended WW I? 2) Write quicksort in Rust 3) What is the Taylor approximation of sin(x) ?",
+                        "name": "AI Assistant",
+                        "widget": "aichat",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

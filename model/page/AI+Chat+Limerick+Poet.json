@@ -1,0 +1,29 @@
+{
+    "ID": "AI Chat Limerick Poet",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "title": "Dashjoin AI Poet",
+                "text": "A Funny Limerick Creator",
+                "widget": "text"
+            },
+            {
+                "widget": "container",
+                "children": [
+                    {
+                        "url": "ai-kb-chat",
+                        "title": "",
+                        "tagline": "I am your Limerick Creator! Just tell me which topic! Example: red trees and green sky",
+                        "name": "Limerick Poet AI",
+                        "system_prompt": "Write a limerick about the user's request.",
+                        "logo": "https://store-images.s-microsoft.com/image/apps.52432.13510798882995088.9e9f3792-3fe3-4d57-b2c6-1e866646c295.7ba46ccd-371e-43ff-9d44-b2277bcb51fd?mode=scale&q=90&h=300&w=300",
+                        "extraArgs": "{\n\"textQuestion\":\"About which topic shall I write a Limerick?\"\n}",
+                        "widget": "aichat",
+                        "size": 6
+                    }
+                ]
+            }
+        ]
+    }
+}

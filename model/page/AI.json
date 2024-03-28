@@ -1,0 +1,12 @@
+{
+    "ID": "AI",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "markdown": "# Dashjoin AI - Endless Possibilities\n\n## The power of Low Code and AI in one platform\n\nThis system shows the various possibilities how to easily integrate AI models and documents, data + SQL to provide value to your business.\n\nYou can also talk to the AI:\n\njust click on the microphone icon and ask your question. After 1 second of silence, the AI will start to respond and also read out the answer for you.\n\n### [AI Knowledge Base](/#/page/AI%20Knowledge%20Base)\n\nThis showcase has a knowledge base of more than 100 security documents from the BSI (Bundesamt für Sicherheit in der Informationstechnik) and is able to answer questions about the contained security and protection best practises.\n\nThis is a German showcase, but the AI can answer in a different language if asked to to so.\n\n### [General AI Chat](/#/page/AI%20Chat)\n\nThis system shows how a generic AI assistent for Q&A can be integrated.\n\n### [AI Limerick Poet](/#/page/AI%20Chat%20Limerick%20Poet)\n\nThis is a funny showcase of a customized AI for a specific use case:\n\nwriting a novel Limerick about the topic you specify!\n",
+                "widget": "markdown"
+            }
+        ]
+    }
+}

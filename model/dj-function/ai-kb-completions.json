@@ -1,0 +1,14 @@
+{
+    "ID": "ai-kb-completions",
+    "djClassName": "org.dashjoin.function.RestJson",
+    "username": "admin",
+    "password": "DJ1#\bWubZ1FEf5Geq7pAjiQjsDWV3p8IU8I3j",
+    "url": "http://aikb:8080/v1/completions",
+    "returnText": false,
+    "timeoutSeconds": 60,
+    "method": "POST",
+    "contentType": "application/json",
+    "roles": [
+        "authenticated"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "djClassName": "org.dashjoin.function.RestJson",
+    "ID": "ai-kb-chat",
+    "roles": [
+        "authenticated"
+    ],
+    "username": "admin",
+    "password": "DJ1#\bF1+z/mPgtXD4WlSsaRgk7HggBMaB4x2P",
+    "url": "http://aikb:8080/v1/chat/completions",
+    "method": "POST",
+    "contentType": "application/json",
+    "returnText": false,
+    "timeoutSeconds": 60
+}
