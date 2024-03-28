@@ -16,8 +16,8 @@
                         "title": "",
                         "tagline": "How can I help you? Ask anything you like! Examples: 1) Which event ended WW I? 2) Write quicksort in Rust 3) What is the Taylor approximation of sin(x) ?",
                         "name": "AI Assistant",
-                        "widget": "aichat",
-                        "size": 6
+                        "extraArgs": "{ \"width\":\"100%\", \"height\":500 }",
+                        "widget": "aichat"
                     }
                 ]
             }

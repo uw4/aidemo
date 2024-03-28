@@ -16,6 +16,7 @@
                 "name": "Sicherheits-KI",
                 "system_prompt": "You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided. Answer in German.",
                 "knowledge_base": true,
+                "extraArgs": "{ \"width\":\"100%\", \"height\":500 }",
                 "widget": "aichat"
             }
         ]

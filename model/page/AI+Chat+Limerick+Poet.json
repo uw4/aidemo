@@ -18,9 +18,8 @@
                         "name": "Limerick Poet AI",
                         "system_prompt": "Write a limerick about the user's request.",
                         "logo": "https://store-images.s-microsoft.com/image/apps.52432.13510798882995088.9e9f3792-3fe3-4d57-b2c6-1e866646c295.7ba46ccd-371e-43ff-9d44-b2277bcb51fd?mode=scale&q=90&h=300&w=300",
-                        "extraArgs": "{\n\"textQuestion\":\"About which topic shall I write a Limerick?\"\n}",
-                        "widget": "aichat",
-                        "size": 6
+                        "extraArgs": "{\n\"textQuestion\":\"About which topic shall I write a Limerick?\",\n\"width\":\"100%\", \"height\":500\n}",
+                        "widget": "aichat"
                     }
                 ]
             }
