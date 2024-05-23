@@ -1,0 +1,15 @@
+{
+    "ID": "Marketing",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "widget": "container"
+            },
+            {
+                "html": "<h1>Marketing Assistent</h1>\n\n<hr>\n\n<a href=\"/#/full/LinkedIn\">\n  <img src=\"https://storage.googleapis.com/download.dashjoin.com/demo/marketing/icon-linked-png.png\" width=\"300\">\n</a>\n\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n\n<a href=\"/#/full/Blog\">\n  <img src=\"https://storage.googleapis.com/download.dashjoin.com/demo/marketing/icon-blog-png.png\" width=\"300\">\n</a>\n\n<hr>\n\n<h2>Einstellungen</h2>\n\n<a href=\"/#/full/MeineFirma\">\n  <img src=\"https://cdn-icons-png.flaticon.com/512/900/900797.png\" width=\"100\">\n</a>\n",
+                "widget": "html"
+            }
+        ]
+    }
+}

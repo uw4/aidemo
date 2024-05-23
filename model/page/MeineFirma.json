@@ -1,0 +1,50 @@
+{
+    "ID": "MeineFirma",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "html": "<h1>Meine Firma</h1>",
+                "widget": "html"
+            },
+            {
+                "text": "Speichern",
+                "widget": "variable",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "unternehmen": {
+                            "widget": "textarea",
+                            "size": 3
+                        },
+                        "branche": {
+                            "widget": "auto complete",
+                            "options": "[\"Einzelhandel\", \"Dienstleistung\", \"Handwerksbetrieb\", \"Produktion\"]",
+                            "size": 3
+                        },
+                        "zielgruppe": {
+                            "widget": "textarea",
+                            "size": 3
+                        },
+                        "geo": {
+                            "widget": "textarea",
+                            "size": 3
+                        },
+                        "produkte": {
+                            "widget": "textarea"
+                        },
+                        "wettbewerber": {
+                            "widget": "textarea"
+                        },
+                        "seo": {
+                            "widget": "textarea"
+                        },
+                        "rezensionen": {
+                            "widget": "textarea"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

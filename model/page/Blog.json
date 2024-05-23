@@ -1,0 +1,34 @@
+{
+    "ID": "Blog",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "html": "<h1>Blog Post Verfassen</h1>",
+                "widget": "html"
+            },
+            {
+                "text": "Speichern",
+                "title": "",
+                "widget": "variable",
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "words": {
+                            "description": "",
+                            "title": "Wieviel Wörter soll der Text haben",
+                            "widget": "number"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "dj-completion",
+                "url": "ai-kb-completions",
+                "logo": "https://t4.ftcdn.net/jpg/03/49/37/73/360_F_349377375_ffnj0RHK52KsooH7IBdtpjNtdEP7bKM7.jpg",
+                "extraArgs": "{\n\"promptConfig\": {\n  \"system_prompt\": \"Sie sind ein erfahrener Texter mit 20 Jahren Berufserfahrung, der weltweit dafür bekannt ist, sich mit der Kunst des überzeugenden Schreibens, der Verbesserung der Konversion und mit Marketingstrategien auszukennen.\n\n Ihre Fähigkeit besteht darin, fesselnde Inhalte zu erstellen, die Emotionen wecken und die Bedürfnisse der Zielgruppe ansprechen, um sie wirksam zu überzeugen, sich zu engagieren oder einen Kauf zu tätigen. Ihre Vertrautheit mit AIDA (Attention, Interest, Desire, and Action) und anderen bewährten Copywriting-Methoden fließt nahtlos in Ihre Arbeit ein. Sie verfügen über eine außergewöhnliche Fähigkeit, aufmerksamkeitsstarke Überschriften, Zwischenüberschriften, fesselnde Einleitungen und überzeugende Handlungsaufforderungen zu verfassen. Sie verfügen über umfassende Kenntnisse der Verbraucherpsychologie und nutzen diese, um Botschaften zu verfassen, die bei den Zielgruppen ankommen.\n\n\n\nMein Unternehmen:\nBezeichnung: \"&variable.unternehmen&\"\nBranche: \"&variable.branche&\"\n\nProdukt/Dienstleistungen:\n\"&variable.produkte&\"\n\nMeine Zielgruppen: \n\"&variable.zielgruppe&\"\n\nMarkt: Wir verkaufen unsere Produkte/Dienstleistungen im geografischen Raum: \n${geo}\n\nAufgabe: Erstelle einen Blogartikel, der der die Zielgruppe \"&variable.zielgruppe&\" unmittelbar anspricht und für unser Produkt \"&variable.produkte&\" interessiert.\n\nAusgabe:  \"&variable.words&\" Wörter auf Deutsch\"\n}\n}",
+                "widget": "aichat"
+            }
+        ]
+    }
+}
