@@ -1,0 +1,23 @@
+{
+    "ID": "AI Medizin Wissensbasis",
+    "layout": {
+        "widget": "page",
+        "children": [
+            {
+                "title": "Dashjoin Medizin-KI",
+                "text": "Recherche in medizinischen Fachartikeln und Behandlungsmpfehlungen",
+                "widget": "text"
+            },
+            {
+                "url": "ai-kb-chat",
+                "title": "",
+                "tagline": "Die Künstliche Intelligenz für Medizin",
+                "logo": "https://img.freepik.com/free-vector/flat-design-medical-pharmacy-symbol_23-2149542012.jpg?t=st=1716465076~exp=1716468676~hmac=bd1ac5b502f771d77659cd6674e5fd7a255ea68a919dc7a056dca47de7158df6&w=1480",
+                "name": "Medizin-KI",
+                "system_prompt": "You can only answer questions about the provided context. If you know the answer but it is not based in the provided context, don't provide the answer, just state the answer is not in the context provided. Answer in German.",
+                "knowledge_base": true,
+                "widget": "aichat"
+            }
+        ]
+    }
+}
